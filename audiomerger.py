@@ -11,7 +11,6 @@ def merge_audio_files(input_dir, output_file, filename="merged_audio"):
     for file in files:
         audio = AudioSegment.from_file(os.path.join(input_dir, file))
         merged_audio += audio + AudioSegment.silent(duration=random.randint(250, 500))
-    print(out_file)
     merged_audio.export(out_file, format='wav', bitrate='320k')
     
     print("\nAudio files merged successfully!")
