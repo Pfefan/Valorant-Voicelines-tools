@@ -1,10 +1,10 @@
-# Valorant Voicelines Tools
+# Valorant Voice lines Tools
 
 This repository contains two Python scripts that can be used to download and merge voice lines from Valorant agents.
 
 ## vldownloader.py
 
-This script uses the `MediaExtractor` class to download voice lines of a specified Valorant agent. The voice lines are downloaded from the Valorant Fandom website.
+This script downloads voice lines of a specified Valorant agent. These voice lines are downloaded from the Valorant Fandom website.
 
 ### Usage
 
